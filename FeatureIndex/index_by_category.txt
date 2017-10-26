@@ -1,0 +1,48 @@
+Packet Count:                             1-13
+    total pkt count (1)
+    outgoing pkt count (2)
+    incoming pkt count (3)
+    outgoing count/total count (4)
+    incoming count/total count (5)
+    Rounding by WPES11 (6-10)
+    Pkt Size Sum (11-13)
+
+Time Statistics:                          14-37
+    Total: Inter-Pkt statistics (14-17)
+    Outgoing: Inter-Pkt statistics (18-21)
+    Incoming: Inter-Pkt statistics (22-25)
+    Total: Trans. Statistics (26-29)
+    Outgoing: Trans. Statistics (30-33)
+    Incoming: Trans. Statistics (34-37)
+
+Packet Ordering (NGRAM):                  38-161  
+    2-Gram, (00,01,10...) (38-41)
+    3-Gram, (000, 001, 010...) (42-49)
+    4-Gram (50-65)
+    5-Gram (66-97)
+    6-Gram (98-161)
+Packet Ordering (TRANS_POSITION):         162-765
+    Outgoing: 162-463 (300 + 1 std + 1 mean)
+    Incoming: 464-765 (300 + 1 std + 1 mean)
+Intervals (KNN):                          766-1365
+    Incoming: 766-1065
+    Outgoing: 1066-1365
+Intervals (ICICS):                        1366-1967
+    Incoming: 1366-1666
+    Outgoing: 1667-1967
+Intervals (WPES11):                       1968-2553 
+    Incoming: 1968-2260
+    Outgoing: 2261-2553
+Packet Distribution:                      2554-2778
+    Outgoing: 2554-2757 (200 + 1 std + 1 mean + 1 median + 1 max)
+    alternative: 2758-2778 (20 + 1 sum)
+BURST:                                    2779-2789
+    ave + ave + num: 2779-2781
+    (>5) + (>10) + (>15): 2782-2784
+    first 5 bursts: 2785-2789
+FIRST20:                                  2790-2809
+FIRST30_PKT_NUM:                          2810-2811
+LAST30_PKT_NUM:                           2812-2813
+PKT_PER_SECOND:                           2814-2939
+CUMUL:                                    2940-3043
+
