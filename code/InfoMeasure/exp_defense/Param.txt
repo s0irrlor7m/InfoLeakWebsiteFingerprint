@@ -1,0 +1,45 @@
+%%%%%%%% project info %%%%%%%%%%%%%%%%%%
+home_directory ****************
+
+
+
+%%%%%%%% socket setup %%%%%%%%%%%%%%%%%%%%%5
+server_address ******************
+%server_address localhost
+port_number 9900
+port_random 1 
+partition 1000000
+infoDistributorManager 0
+
+%%%%%%%%% parallel_parameter %%%%%%%%%%%%%
+debug_on 1
+debug_on_plenty 0 
+## infoDistributor number
+server_number 1 
+
+info_filename info.mat
+
+job_filename JobRecord
+job_size 1100 
+job_refresh_threshold 5 
+debug_data debug_data
+
+% server listening timeout 
+server_timeout 240000
+read_timeout 60000
+
+%%%%%%%% openworld_parameter %%%%%%%%%%%%%%%%%
+mcarlo_num 5000 
+prior_type Closed_World_Equal 
+monitor_dataset *******************
+non_monitor_dataset ../dataset_open_world/non_monitored/0-500/
+# selector=1: bootstrap; selector=2: subsampling (with reModel_krate)
+reModel_krate 0.5
+selector 1 
+#WTF_no_such_thing_like_discrete_give_a_very_large_value
+discrete_thres 10000000000
+##tamaraw
+#discrete_thres 1
+#buflo
+#discrete_thres -1
+

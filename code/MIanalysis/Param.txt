@@ -1,0 +1,4 @@
+MI_THRES 0.9
+DBSCAN_THRES 0.4
+SamplePercent 0.1
+STEP 50

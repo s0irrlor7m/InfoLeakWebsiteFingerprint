@@ -1,0 +1,6 @@
+util
+
+this folder contains the functions and classes for generic util purpose
+
+readParam.m
+a function to read parameters from .txt files

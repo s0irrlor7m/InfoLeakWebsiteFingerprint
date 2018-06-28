@@ -1,0 +1,41 @@
+%%%%%%%% project info %%%%%%%%%%%%%%%%%%
+
+home_directory ************
+
+
+%%%%%%%% socket setup %%%%%%%%%%%%%%%%%%%%%5
+server_address ***************
+%server_address localhost
+port_number 9900
+port_random 1
+partition 1000000
+infoDistributorManager 0
+
+%%%%%%%%% parallel_parameter %%%%%%%%%%%%%
+debug_on 1
+debug_on_plenty 0
+%%% distributor number
+server_number 1
+
+info_filename info.mat
+
+job_filename JobRecord
+job_size 2600
+job_refresh_threshold 60
+epoch_time 60
+debug_data **********************
+
+% server listening timeout
+server_timeout 2400000
+read_timeout 60000
+
+%%%%%%%% openworld_parameter %%%%%%%%%%%%%%%%%
+mcarlo_num 5000
+prior_type Closed_World_Equal
+monitor_dataset *********************
+non_monitor_dataset ../dataset_open_world/non_monitored/0-500/
+reModel_krate 0.5
+selector 2
+DBSCAN_THRES 0.4
+MI_THRES 0.9
+
