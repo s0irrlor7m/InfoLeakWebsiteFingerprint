@@ -3,5 +3,5 @@ InfoLeakWebsiteFingerprint/code/InfoMeasure/
 solo_measure:
 stand-alone machine measurement upon website fingerprinting features, able to utilize multi-cores   
 
-parallel_measure:
+distributed_measure:
 setup a server distributing measurement jobs to workers, fit for large-scale measurement or limited single-machine powers 
