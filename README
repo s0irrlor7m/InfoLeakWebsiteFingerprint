@@ -5,3 +5,6 @@ stand-alone machine measurement upon website fingerprinting features, able to ut
 
 distributed_measure:
 setup a server distributing measurement jobs to workers, fit for large-scale measurement or limited single-machine powers 
+
+
+Note: the resulting file "JobRecord_*.mat" is H(C|F), the actual information leakage should be H(C) - H(C|F) 
